@@ -32,4 +32,4 @@ for tweet in tweets:
         country_dictionary[country] = 1
 
 for key, value in country_dictionary.items():
-    r.zadd("country-test",{key: value})
+    r.zadd("country-test",{key: value}, incr=True)
