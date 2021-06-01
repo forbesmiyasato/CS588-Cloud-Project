@@ -1,13 +1,18 @@
 import json
 import redis
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--file', required=True, type=str)
+args = parser.parse_args()
+file = args.file
 
 r = redis.Redis(host='localhost', port=6379, db=0)
 
-with open('Eurovision3.json') as f:
-    tweets = json.loads("[" + 
-        f.read().replace("}\n\n{", "},\n{") + 
-    "]")
+with open(file) as f:
+    tweets = json.loads(f.read())
 
+print(len(tweets))
 for tweet in tweets:
     if 'user' not in tweet:
         continue
