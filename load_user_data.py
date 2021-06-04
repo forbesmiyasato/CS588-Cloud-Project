@@ -1,6 +1,7 @@
 import json
 import redis
 import argparse
+from datetime import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', required=True, type=str)
@@ -21,3 +22,5 @@ for tweet in tweets:
     screen_name = tweet['user']['screen_name']
     r.hset('all_users', username, id)
     r.hmset(f'user:{id}', {'username': username, 'screen_name': screen_name})
+    created_time = datetime.strptime(tweet['created_at'],'%a %b %d %H:%M:%S +0000 %Y')
+    r.zadd(f'user_tweets:{id}', {tweet['id']: created_time.timestamp()}, nx=True)
