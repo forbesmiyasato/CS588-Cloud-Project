@@ -12,8 +12,6 @@ r = redis.Redis(host='localhost', port=6379, db=0)
 with open(file) as f:
     tweets = json.loads(f.read())
 
-count = 0
-count2 = 0
 for tweet in tweets:
     if 'id' not in tweet:
         continue
