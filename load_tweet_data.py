@@ -1,6 +1,7 @@
 import json
 import redis
 import argparse
+from datetime import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', required=True, type=str)
@@ -30,7 +31,13 @@ for tweet in tweets:
     reply_to_user_key = 'None'
     if tweet['in_reply_to_user_id']:
         reply_to_user_key = tweet['in_reply_to_user_id']
+    reply_to_tweet_id = 'None'
+    if tweet['in_reply_to_status_id']:
+        reply_to_tweet_id = tweet['in_reply_to_status_id']
+    created_dt = datetime.strptime(created_time,'%a %b %d %H:%M:%S +0000 %Y') 
     r.hset('all_tweets', tweet_id, tweet_id)
     r.hmset(f'tweet:{tweet_id}', {'tweet_id': tweet_id, 'type': tweet_type,
                             'created_time': created_time, 'text': text,
                             'user_key': user_key, 'reply_to_user_key': reply_to_user_key})
+    r.zadd(f'reply_tweets:{reply_to_tweet_id}', {tweet_id: created_dt.timestamp()}, nx=True)
+
