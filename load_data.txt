@@ -1,0 +1,92 @@
+Start loading data from /tmp/Eurovision-files/Eurovision10.json
+[2021-06-06 22:20:50] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:21:50] <load tweet data>: Loading tweet data took 59.60 seconds to run
+[2021-06-06 22:21:50] <load tweet data>: Starting to load user data
+[2021-06-06 22:22:45] <load tweet data>: Loading user data took 55.77 seconds to run
+[2021-06-06 22:22:45] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:23:14] <load tweet data>: Loading hashtag data took 28.64 seconds to run
+[2021-06-06 22:23:14] <load tweet data>: Starting to load country data
+[2021-06-06 22:23:14] <load tweet data>: Loading country data took 0.12 seconds to run
+[2021-06-06 22:23:14] <load tweet data>: Loading all data took 144.14 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision11.json
+[2021-06-06 22:23:53] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:24:54] <load tweet data>: Loading tweet data took 61.23 seconds to run
+[2021-06-06 22:24:54] <load tweet data>: Starting to load user data
+[2021-06-06 22:25:51] <load tweet data>: Loading user data took 56.77 seconds to run
+[2021-06-06 22:25:51] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:26:26] <load tweet data>: Loading hashtag data took 35.07 seconds to run
+[2021-06-06 22:26:26] <load tweet data>: Starting to load country data
+[2021-06-06 22:26:26] <load tweet data>: Loading country data took 0.13 seconds to run
+[2021-06-06 22:26:26] <load tweet data>: Loading all data took 153.19 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision3.json
+[2021-06-06 22:26:42] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:27:05] <load tweet data>: Loading tweet data took 23.69 seconds to run
+[2021-06-06 22:27:05] <load tweet data>: Starting to load user data
+[2021-06-06 22:27:26] <load tweet data>: Loading user data took 21.00 seconds to run
+[2021-06-06 22:27:26] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:27:38] <load tweet data>: Loading hashtag data took 11.31 seconds to run
+[2021-06-06 22:27:38] <load tweet data>: Starting to load country data
+[2021-06-06 22:27:38] <load tweet data>: Loading country data took 0.05 seconds to run
+[2021-06-06 22:27:38] <load tweet data>: Loading all data took 56.04 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision4.json
+[2021-06-06 22:28:18] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:29:36] <load tweet data>: Loading tweet data took 78.34 seconds to run
+[2021-06-06 22:29:36] <load tweet data>: Starting to load user data
+[2021-06-06 22:30:51] <load tweet data>: Loading user data took 74.64 seconds to run
+[2021-06-06 22:30:51] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:31:41] <load tweet data>: Loading hashtag data took 50.15 seconds to run
+[2021-06-06 22:31:41] <load tweet data>: Starting to load country data
+[2021-06-06 22:31:41] <load tweet data>: Loading country data took 0.17 seconds to run
+[2021-06-06 22:31:41] <load tweet data>: Loading all data took 203.29 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision5.json
+[2021-06-06 22:32:01] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:32:43] <load tweet data>: Loading tweet data took 41.61 seconds to run
+[2021-06-06 22:32:43] <load tweet data>: Starting to load user data
+[2021-06-06 22:33:22] <load tweet data>: Loading user data took 39.77 seconds to run
+[2021-06-06 22:33:22] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:33:49] <load tweet data>: Loading hashtag data took 26.86 seconds to run
+[2021-06-06 22:33:49] <load tweet data>: Starting to load country data
+[2021-06-06 22:33:49] <load tweet data>: Loading country data took 0.08 seconds to run
+[2021-06-06 22:33:49] <load tweet data>: Loading all data took 108.32 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision6.json
+[2021-06-06 22:34:19] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:35:20] <load tweet data>: Loading tweet data took 60.19 seconds to run
+[2021-06-06 22:35:20] <load tweet data>: Starting to load user data
+[2021-06-06 22:36:16] <load tweet data>: Loading user data took 56.01 seconds to run
+[2021-06-06 22:36:16] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:37:08] <load tweet data>: Loading hashtag data took 52.30 seconds to run
+[2021-06-06 22:37:08] <load tweet data>: Starting to load country data
+[2021-06-06 22:37:08] <load tweet data>: Loading country data took 0.12 seconds to run
+[2021-06-06 22:37:08] <load tweet data>: Loading all data took 168.63 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision7.json
+[2021-06-06 22:37:30] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:38:12] <load tweet data>: Loading tweet data took 42.28 seconds to run
+[2021-06-06 22:38:12] <load tweet data>: Starting to load user data
+[2021-06-06 22:38:51] <load tweet data>: Loading user data took 38.88 seconds to run
+[2021-06-06 22:38:51] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:39:17] <load tweet data>: Loading hashtag data took 26.20 seconds to run
+[2021-06-06 22:39:17] <load tweet data>: Starting to load country data
+[2021-06-06 22:39:17] <load tweet data>: Loading country data took 0.08 seconds to run
+[2021-06-06 22:39:17] <load tweet data>: Loading all data took 107.44 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision8.json
+[2021-06-06 22:39:34] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:40:15] <load tweet data>: Loading tweet data took 41.35 seconds to run
+[2021-06-06 22:40:15] <load tweet data>: Starting to load user data
+[2021-06-06 22:40:53] <load tweet data>: Loading user data took 38.15 seconds to run
+[2021-06-06 22:40:53] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:41:14] <load tweet data>: Loading hashtag data took 20.59 seconds to run
+[2021-06-06 22:41:14] <load tweet data>: Starting to load country data
+[2021-06-06 22:41:14] <load tweet data>: Loading country data took 0.07 seconds to run
+[2021-06-06 22:41:14] <load tweet data>: Loading all data took 100.16 seconds to run
+Start loading data from /tmp/Eurovision-files/Eurovision9.json
+[2021-06-06 22:41:26] <load tweet data>: Starting to load tweet data
+[2021-06-06 22:41:47] <load tweet data>: Loading tweet data took 20.98 seconds to run
+[2021-06-06 22:41:47] <load tweet data>: Starting to load user data
+[2021-06-06 22:42:06] <load tweet data>: Loading user data took 19.05 seconds to run
+[2021-06-06 22:42:06] <load tweet data>: Starting to load hashtag data
+[2021-06-06 22:42:16] <load tweet data>: Loading hashtag data took 9.60 seconds to run
+[2021-06-06 22:42:16] <load tweet data>: Starting to load country data
+[2021-06-06 22:42:16] <load tweet data>: Loading country data took 0.04 seconds to run
+[2021-06-06 22:42:16] <load tweet data>: Loading all data took 49.68 seconds to run
+Done
+total loading time for all files was 1326 s.

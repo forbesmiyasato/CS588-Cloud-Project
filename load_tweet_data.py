@@ -52,4 +52,3 @@ for tweet in tweets:
 
 total_time = time.perf_counter() - start_time
 LOGGER.info(f"The program took {total_time:0.2f} seconds to run")
-

@@ -13,7 +13,7 @@ do
     # python3 load_country_data.py --file $FILE
     # end_time=`date +%s`
     # echo total loading time for $FILE was `expr $end_time - $start_time` s.
-    python3 load_all_data.py --file $FILE
+    python3 load_all_data.py --file $FILE &>> load_data.txt
 done
 echo "Done"
 all_end_time=`date +%s`
