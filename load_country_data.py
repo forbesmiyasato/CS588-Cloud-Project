@@ -2,15 +2,20 @@ import json
 import redis
 import argparse
 import time
+from utils import get_logger
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--file', required=True, type=str)
 args = parser.parse_args()
-
 file = args.file
 
-start_time = time.perf_conter()
+LOGGER = get_logger('load country data')
+
 r = redis.Redis(host='localhost', port=6379, db=0)
+
+LOGGER.info('Starting to load country data')
+
+start_time = time.perf_counter()
 
 with open(file) as f:
     tweets = json.loads(f.read())
@@ -40,4 +45,4 @@ for key, value in country_dictionary.items():
     r.zadd("Country",{key: value}, incr=True)
 
 total_time = time.perf_counter() - start_time
-print(f"The program took {total_time:0.2f} seconds to run")
+LOGGER.info(f"The program took {total_time:0.2f} seconds to run")

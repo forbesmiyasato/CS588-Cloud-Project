@@ -16,12 +16,10 @@ r = redis.Redis(host='localhost', port=6379, db=0)
 
 LOGGER.info('Starting to load tweet data')
 
+start_time = time.perf_counter()
+
 with open(file) as f:
     tweets = json.loads(f.read())
-
-LOGGER.info(f'Found {len(tweets)} tweets in {file}')
- 
-start_time = time.perf_counter()
 
 for tweet in tweets:
     if 'id' not in tweet:
@@ -53,5 +51,5 @@ for tweet in tweets:
     r.zadd(f'reply_tweets:{reply_to_tweet_id}', {tweet_id: created_dt.timestamp()}, nx=True)
 
 total_time = time.perf_counter() - start_time
-LOGGER.info(f"Loading executed in {total_time:0.2f} seconds")
+LOGGER.info(f"The program took {total_time:0.2f} seconds to run")
 
